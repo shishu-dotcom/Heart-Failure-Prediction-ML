@@ -1,63 +1,93 @@
-# Heart Failure Prediction Using Machine Learning Models
+# Heart Failure Prediction Using Machine Learning
 
 ## Overview
 
 This repository contains the implementation of the research project:
 
-"Heart Failure Prediction Using Machine Learning Models: A Comparative Study of Multiple Algorithms."
+**"Heart Failure Prediction Using Machine Learning"**
 
-The project investigates machine learning approaches for predicting heart failure using clinical data and compares multiple classification algorithms.
+The project explores machine learning approaches for predicting heart failure using clinical healthcare data. The work was conducted as a CSE498R Directed Research project at North South University.
 
-## Research Objectives
+## Research Objective
 
-- Develop machine learning based heart failure prediction models
-- Compare performance of multiple classification algorithms
-- Evaluate predictive capability using standard performance metrics
-- Deploy the developed prediction system as a web-based application
+The objective of this study was to develop a machine learning based prediction framework capable of identifying patients at risk of heart failure through clinical attributes and predictive modelling techniques.
 
 ## Methodology
 
 The workflow includes:
 
-1. Data preprocessing
-2. Feature preparation
-3. Model development
-4. Algorithm comparison
-5. Performance evaluation
-6. Web-based deployment
+1. Dataset collection and integration
+2. Exploratory data analysis
+3. Data preprocessing
+4. Feature analysis and selection
+5. Machine learning model development
+6. Performance evaluation
+7. Prediction system deployment
+
+The dataset consists of 23 clinically relevant attributes including demographic information, medical history, and clinical measurements.
 
 ## Machine Learning Models
 
-Implemented models:
+The following models were implemented:
 
 - Logistic Regression
-- K-Nearest Neighbors
-- Decision Tree
+- Gaussian Naive Bayes
+- K-Nearest Neighbors (KNN)
 - Random Forest
-- Naive Bayes
-- Convolutional Neural Network
+- Bagging Decision Trees
+- Voting Classifier
 - TabNet
-- Voting Classifier Ensemble
+- Convolutional Neural Network (CNN)
 
 ## Repository Structure
+
 Code/
+Machine learning implementations
+
 Dataset/
-Report/
-Presentation/
+Dataset used for experiments
+
+Research_Report/
+Complete project report
+
+Conference_Presentation/
+Research presentation slides
+
 Deployment/
+Web-based prediction application
+
+Results/
+Experimental results and figures
 
 
-## Research Output
+## Experimental Workflow
+
+The project involved:
+
+- Data preprocessing
+- Feature analysis
+- Model training
+- Comparative performance evaluation
+- Statistical analysis of model outcomes
+
+## Research Dissemination
 
 The research was presented at:
 
-8th International Conference on The Role of Statistics and Data Science in 4IR (ICRSDS4IR)
+**8th International Conference on The Role of Statistics and Data Science in 4IR (ICRSDS4IR)**
 
-University of Rajshahi
+University of Rajshahi  
 December 2024
 
-## Author
+## Authors
 
-Shishir Oyshi
+**Shishir Oyshi**  
+Bachelor of Computer Science and Engineering  
 North South University
-Department of Computer Science and Engineering
+
+## Supervisor
+
+Dr. Md. Alamin  
+Assistant Professor  
+Department of Mathematics and Physics  
+North South University
